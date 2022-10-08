@@ -1,4 +1,4 @@
-# Deep-Learning-in-Practice
+# License plates detection with YOLOv5 and EasyOCR
 
 ### Установка зависимостей
 ```
@@ -22,4 +22,3 @@ YOLOv5s |   0.766   |  0.638   |   0.703   |  0.317
 YOLOv5m |   0.786   |  0.681   |   0.742   |  0.37
 YOLOv5x |   0.825   |  0.785   |   0.832   |  0.424
 
-#### [Google Colab](https://colab.research.google.com/drive/17FQo-ju37rYo2Y0StodccNglA9_ezoG9?usp=sharing)
