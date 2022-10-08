@@ -7,7 +7,7 @@ pip install -r requirements.txt
 
 ### Запуск пайплайна
 *   Клонируйте репозиторий ``` git clone https://github.com/ultralytics/yolov5 ```
-*   Загрузите [веса модели](https://drive.google.com/drive/folders/1vwSxXGE69TGpm8ONGjzn9BTuJde8DhN9)
+*   Загрузите [веса модели](https://drive.google.com/file/d/1wGdTdIu0INb7S5VBht49mNDnxj0_HIBE/view?usp=sharing)
 *   Запустите detect.py, передав на вход фунции путь к видеофайлу
 
 ### Обучение модели YOLOv5
