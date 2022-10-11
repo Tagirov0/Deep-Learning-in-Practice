@@ -14,9 +14,9 @@ def video(video_path):
 
     while capture.isOpened():
         ret, image = capture.read()
-        img = image.copy()
         if image is None:
             break
+	img = image.copy()
         result = model(image)
         cordinates = result.xyxyn[0][:, :-1]
         if cordinates.shape[0] == 0:
