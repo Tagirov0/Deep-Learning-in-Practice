@@ -6,9 +6,19 @@ pip install -r requirements.txt
 ```
 
 ### Запуск пайплайна
-*   Клонируйте репозиторий ``` git clone https://github.com/ultralytics/yolov5 ```
-*   Загрузите [веса модели](https://drive.google.com/file/d/1wGdTdIu0INb7S5VBht49mNDnxj0_HIBE/view?usp=sharing)
-*   Запустите detect.py, передав на вход фунции путь к видеофайлу
+``` 
+# clone repository:
+git clone https://github.com/ultralytics/yolov5
+
+# download model weights:
+gdown "1wGdTdIu0INb7S5VBht49mNDnxj0_HIBE"
+
+# download test video:
+gdown "1Y0H5TJ4O77YNC_l3boIxNFKPFhKUIsZY"
+
+# run pipeline
+python detect.py
+```
 
 ### Обучение модели YOLOv5
 ```
