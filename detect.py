@@ -16,7 +16,7 @@ def video(video_path):
         ret, image = capture.read()
         if image is None:
             break
-	img = image.copy()
+        img = image.copy()
         result = model(image)
         cordinates = result.xyxyn[0][:, :-1]
         if cordinates.shape[0] == 0:
@@ -45,4 +45,4 @@ def video(video_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    video('ru2.mp4')
+    video('test/video.mp4')
