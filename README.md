@@ -8,16 +8,15 @@ pip install -r requirements.txt
 ### Usage
 ``` 
 # clone repository:
+git clone https://github.com/Tagirov0/Deep-Learning-in-Practice
+
+cd Deep-Learning-in-Practice
+
+# clone repository:
 git clone https://github.com/ultralytics/yolov5
 
-# download YOLOv5 weights:
-gdown "1wGdTdIu0INb7S5VBht49mNDnxj0_HIBE"
-
-# download custom easyocr weights:
-gdown ""
-
-# download test video:
-gdown "1Y0H5TJ4O77YNC_l3boIxNFKPFhKUIsZY"
+# download weights and test video:
+python loader.py
 
 # run pipeline
 python detect.py
@@ -44,7 +43,7 @@ EasyOCR        |  0.1      | 0.57  |  0.90
 Custom EasyOCR |  0.57     | 0.28  |  0.42
 
 #### Word error rate (WER):
-```
+```math
 WER=\frac{S + D + I}{N}
 ```
 `S` is the number of substitutions, `D` is the number of deletions, `I` is the number of insertions, `C` is the number of correct words, `N` is the number of words in the reference (N=S+D+C). This value indicates the average number of errors per reference word. 
