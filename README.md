@@ -52,11 +52,24 @@ WER=\frac{S + D + I}{N}
 
 **The lower the value of WER and CER, the better the performance of the OCR system with a WER and CER of 0 being a perfect score.**
 
+### Three
 ```
 .
-├── custom easyocr                  
-├── test                   
-├── Detection.ipynb 
+├── custom_easyocr
+│   ├── model       
+│   │   └── custom_example.pth  
+│   └── user_network    
+│       ├── custom_example.py           
+│       └── custom_example.yaml            
+├── notebooks
+│       ├── train_yolov5.ipynb
+│       └── train_custom_easyocr.ipynb  
+├── test
+│       ├── 1.txt  
+│       ├── 2.txt  
+│       ├── 3.txt
+│       ├── 4.txt
+│       └── 5.txt  
 ├── README.md
 ├── detect.py           
 └── requirements.txt
