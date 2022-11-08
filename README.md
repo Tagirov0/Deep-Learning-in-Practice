@@ -1,16 +1,14 @@
 # License plates detection with YOLOv5 and EasyOCR
 
-### Install dependencies
-```
-pip install -r requirements.txt
-```
-
 ## Usage
 ``` 
 # clone repository:
-git clone https://github.com/Tagirov0/Deep-Learning-in-Practice
+git clone https://github.com/Tagirov0/license-plates-detection
 
-cd Deep-Learning-in-Practice
+# install dependencies
+pip install -r requirements.txt
+
+cd license-plates-detection
 
 # clone repository:
 git clone https://github.com/ultralytics/yolov5
@@ -82,6 +80,7 @@ It is possible to scale the system to two or more cameras while reducing the num
 │       ├── 4.txt
 │       └── 5.txt  
 ├── README.md
-├── detect.py           
+├── detect.py
+├── loader.py
 └── requirements.txt
 ```
