@@ -30,6 +30,8 @@ python train.py --img 640 --batch 16 --epochs 50 --data custom.yaml --weights yo
 
 ## Experiments
 ### YOLOv5:
+* image size=640x640
+
 Models  | Parameters                         | Precision |  Recall   |   mAP50   | mAP50-95
   ---   |             ---                    |   ---     |    ---    |     ---   |   ---
 YOLOv5s | batch_size=32, fl_gamma=0             |   0.766   |   0.638   |   0.703   |  0.317
