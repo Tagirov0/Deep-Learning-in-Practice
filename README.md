@@ -5,10 +5,10 @@
 # clone repository:
 git clone https://github.com/Tagirov0/license-plates-detection
 
+cd license-plates-detection
+
 # install dependencies
 pip install -r requirements.txt
-
-cd license-plates-detection
 
 # clone repository:
 git clone https://github.com/ultralytics/yolov5
