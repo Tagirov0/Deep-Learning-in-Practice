@@ -20,6 +20,9 @@ python loader.py
 python detect.py
 ```
 
+## Example
+<img src="https://github.com/Tagirov0/license-plates-detection/blob/main/test/inference.jpg" width=50% height=50%>
+
 ## Train YOLOv5
 ```
 python train.py --img 640 --batch 16 --epochs 50 --data custom.yaml --weights yolov5x.pt --cache
